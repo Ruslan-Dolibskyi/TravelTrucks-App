@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
 :root {
   --main: #101828;
   --text: #475467;
@@ -12,8 +14,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
-  background: var(--White);
+  font-family: 'Inter', sans-serif;
   line-height: 1.5;
   font-style: normal;
   font-weight: 400;
