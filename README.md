@@ -1,8 +1,44 @@
-# TravelTrucks - Frontend
+# TravelTrucks Camper Rental - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Опис проекту
 
-Currently, two official plugins are available:
+Цей проект є фронтенд додатком для компанії "TravelTrucks", яка займається
+орендою кемперів. Користувачі можуть переглядати каталог кемперів, фільтрувати
+їх за різними критеріями, додавати кемпери до списку обраних, переглядати деталі
+кожного кемпера та залишати відгуки.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Основні функції
+
+- Перегляд каталогу кемперів
+- Фільтрація транспортних засобів за локацією, типом кузова та характеристиками
+- Додавання кемперів до списку обраних
+- Перегляд деталей кожного кемпера
+- Бронювання кемперів "
+
+## Технології
+
+- React (з використанням Vite)
+- Redux Toolkit — для управління станом
+- React Router для маршрутизації
+- Axios для роботи з API
+- Formik & Yup — для обробки та валідації форм
+- CSS модулі для стилізації
+- Vite — для хостинг для збірки проекту
+
+## Як запустити проект
+
+1. Клонуйте репозиторій:
+   ```bash
+   git clone https://github.com/Ruslan-Dolibskyi/TravelTrucks-App.git
+   ```
+2. Встановіть залежності
+
+   ```bash
+   npm install
+   ```
+
+3. Запустіть проект:
+
+   ```bash
+   npm run dev
+   ```

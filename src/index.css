@@ -7,17 +7,21 @@
   --inputs: #f7f7f7;
   --badges: #f2f4f7;
   --gray: #6c717b;
-  --gray-light: #dadde1;
+  --light-gray: #dadde1;
   --button: #e44848;
   --button-hover: #d84343;
   --rating: #ffc531;
+
+  --transition: 300ms ease-in;
+
+  --max-outer-container-width: 1440px;
 }
 
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
-  font-style: normal;
-  font-weight: 400;
+  color: var(--main);
+  font-optical-sizing: none;
 }
 
 h1,
@@ -34,9 +38,28 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  width: 166px;
+  height: 56px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: var(--button);
+  border: none;
+  border-radius: 200px;
+  color: var(--white);
+  font-weight: 500;
+  letter-spacing: -0.005em;
+
+  &:hover {
+    background-color: var(--button-hover);
+  }
 }

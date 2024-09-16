@@ -1,0 +1,8 @@
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+
+  .text {
+    font-weight: 500;
+  }
+}

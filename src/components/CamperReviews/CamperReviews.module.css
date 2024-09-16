@@ -1,0 +1,60 @@
+.reviewsContainer {
+  width: 100%;
+  max-width: 631px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding: 0 16px;
+}
+
+.reviewItem {
+  list-style: none;
+}
+
+.singleReviewContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid var(--light-gray);
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.iconDiv {
+  background-color: var(--badges);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.iconDiv p {
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--button);
+}
+
+.nameDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nameDiv p {
+  font-weight: 500;
+}
+
+.comment {
+  color: var(--text);
+  line-height: 1.5;
+}

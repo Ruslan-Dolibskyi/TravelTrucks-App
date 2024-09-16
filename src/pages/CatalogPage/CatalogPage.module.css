@@ -1,0 +1,26 @@
+.catalogPage {
+  max-width: var(--max-outer-container-width);
+  margin: 0 auto;
+  padding: 48px 64px;
+  display: flex;
+  gap: 64px;
+}
+
+.filtersSection {
+  width: 360px;
+  flex-shrink: 0;
+}
+
+.locationFilter {
+  .filterLabel {
+    color: var(--gray);
+  }
+}
+
+.featureFilters {
+  margin-top: 40px;
+}
+
+.searchButton {
+  margin-top: 40px;
+}

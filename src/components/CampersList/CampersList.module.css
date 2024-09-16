@@ -1,0 +1,29 @@
+.rightSideContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .loadMoreBtn {
+    background-color: var(--white);
+    border: 1px solid var(--light-gray);
+    color: var(--main);
+    width: 145px;
+    text-align: center;
+
+    &:hover {
+      border-color: var(--button);
+    }
+  }
+}
+
+.errorText {
+    text-align: center;
+  }

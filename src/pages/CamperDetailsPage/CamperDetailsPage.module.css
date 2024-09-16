@@ -1,0 +1,73 @@
+.detailPageContainer {
+  padding: 48px 64px;
+  max-width: var(--max-outer-container-width);
+  margin: 0 auto;
+
+  .mainInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+    .mainInfoTitleBlock {
+      .title {
+        font-weight: 600;
+        line-height: 1.33;
+        font-size: 24px;
+        margin-bottom: 8px;
+      }
+
+      .price {
+        margin-bottom: 0;
+        margin-top: 16px;
+      }
+    }
+
+    .description {
+      color: var(--text);
+    }
+  }
+
+  .separatorLine {
+    margin-top: 24px;
+    border-bottom: 1px solid var(--light-gray);
+  }
+
+  .outletContainer {
+    margin-top: 44px;
+    display: flex;
+    gap: 40px;
+  }
+
+  .subNavigation {
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+
+    .invisibleButton {
+      position: relative;
+      width: auto;
+      height: 100%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      background-color: var(--white);
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1.2;
+      color: var(--main);
+    }
+
+    .withHover {
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -27px;
+        height: 5px;
+        background-color: var(--button);
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .heroContainer {
+    background-image: url(../../assets/images/hero@2x.webp);
+  }
+}
+
+.heroContainer {
+  background-image: url(../../assets/images/hero.webp);
+  height: 696px;
+  max-width: var(--max-outer-container-width);
+  margin: 0 auto;
+  padding: 260px 64px;
+
+  .heroText {
+    color: var(--inputs);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.66;
+  }
+
+  .heroSubtitleText {
+    margin-top: 16px;
+    color: var(--inputs);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+  }
+
+  .heroBtn {
+    margin-top: 40px;
+    width: 173px;
+  }
+}

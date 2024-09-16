@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  gap: 16px;
+
+  .ratingContainer,
+  .locationContainer {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+
+    .underlineText {
+      text-decoration: underline;
+    }
+  }
+
+  .ratingContainer {
+    fill: var(--rating);
+  }
+}

@@ -1,0 +1,32 @@
+.header {
+  background-color: var(--inputs);
+  border-bottom: 1px solid var(--badges);
+  height: 72px;
+
+  .headerContainer {
+    padding: 24px 64px;
+    max-width: var(--max-outer-container-width);
+    margin: 0 auto;
+
+    .navigationContainer {
+      display: flex;
+      gap: 450px;
+      align-items: center;
+
+      .textNavigationContainer {
+        display: flex;
+        gap: 32px;
+
+        .link {
+          text-decoration: none;
+          font-weight: 500;
+          color: var(--main);
+
+          &.active {
+            color: var(--button-hover);
+          }
+        }
+      }
+    }
+  }
+}

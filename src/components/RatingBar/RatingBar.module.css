@@ -1,0 +1,12 @@
+.ratingBarContainer {
+  display: flex;
+  gap: 4px;
+
+  .starColorYellow {
+    fill: var(--rating);
+  }
+
+  .starColorGray {
+    fill: var(--badges);
+  }
+}

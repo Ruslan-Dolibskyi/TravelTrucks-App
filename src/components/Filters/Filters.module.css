@@ -1,0 +1,47 @@
+.filtersContainer {
+  margin-top: 32px;
+
+  .title {
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 20px;
+  }
+
+  .separatorLine {
+    margin-top: 24px;
+    border-bottom: 1px solid var(--light-gray);
+  }
+
+  .filters {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+
+    .filterItem {
+      width: 112px;
+      height: 96px;
+      border: 1px solid var(--light-gray);
+      border-radius: 12px;
+      background-color: var(--white);
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+
+      &.selected,
+      &:hover {
+        border-color: var(--button);
+      }
+
+      .filterItemTitle {
+        font-weight: 500;
+        letter-spacing: -0.005em;
+        text-align: center;
+        color: var(--main);
+      }
+    }
+  }
+}
